@@ -18,3 +18,5 @@ jobs:
           template: "$newline- [$title]($url) — $date"
           date_format: "yyyy-MM-dd"
           commit_message: "blog: $commitMessage"
+          user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+          accept_header: "application/rss+xml"
